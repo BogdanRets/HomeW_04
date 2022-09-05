@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter';
+    font-family: 'Source Sans Pro';
+    background: #F2F2F2;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-rigth{
+    float: right;
+}
+li{
+    list-style: none;
+}
+header{
+    background-color: black;
+    padding: 20px 23px 20px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.container{
+    min-width: 600px;
+    width: 100%;
+    padding: 0 10px;
+}
+.sect_cont{
+    max-width: 892px;
+    margin: 0 auto;
+}
+.header_nav:nth-child(1){
+    margin-right: 55px;
+}
+.header_nav:nth-child(2){
+    margin-right: 37px;
+}
+.logo{
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+.dot_yel{
+    color: #FAE800;
+}
+.dot_white{
+    color: white;
+}
+.menu{
+    margin-top: 6px;
+}
+.men_link{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+.men_social:last-child{
+    margin-left: 13px;
+}
+.circuit{
+    background-color: #FAE800;
+    padding: 124px 0;
+    text-align: center;
+}
+.circuit_text{
+    font-family: 'Inter';
+    font-size: 96px;
+    line-height: 116px;
+}
+.circuit_info{
+    display: inline-block;
+    max-width: 495px;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+}
+.about_blck{
+    padding: 32px 0;
+    text-align: center;
+}
+.text{
+    font-family: 'Inter';
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 60px;
+}
+.about_info{
+    display: inline-block;
+    max-width: 552px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.project-dot::after{
+    right: 38%;
+}
+.project-body{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.section-body{
+    padding: 0px 100px;
+    margin: 0 auto;
+}
+.section{
+    width: 272px;
+    height: 384px;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.743515) 6.67%, rgba(0, 0, 0, 0.723368) 13.33%, rgba(0, 0, 0, 0.688755) 20%, rgba(0, 0, 0, 0.639441) 26.67%, rgba(0, 0, 0, 0.576169) 33.33%, rgba(0, 0, 0, 0.501087) 40%, rgba(0, 0, 0, 0.417982) 46.67%, rgba(0, 0, 0, 0.332018) 53.33%, rgba(0, 0, 0, 0.248913) 60%, rgba(0, 0, 0, 0.173831) 66.67%, rgba(0, 0, 0, 0.110558) 73.33%, rgba(0, 0, 0, 0.0612449) 80%, rgba(0, 0, 0, 0.0266325) 86.67%, rgba(0, 0, 0, 0.0064854) 93.33%, rgba(0, 0, 0, 0) 100%), url(../images/Rectangle.png);
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+    border-radius: 10px;
+    background-size: cover;
+    text-align:left;
+    background-image: url(../img/anime.png);
+}
+.section:last-child{
+    margin-right: 0;
+}
+.name{
+    display: block;
+    max-width: 208px;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: 'Inter';
+    color: #fff;
+    padding: 20px 0px 0px 60px;
+    font-weight: 900;
+}
+.btn {
+    display: inline-block;
+    color: #F8C822;
+    text-transform: uppercase;
+    min-width: 160px;
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+.sourse::after{
+    right: 31%;
+}
+.contact{
+    text-align: center;
+    margin-bottom: 65px;
+}
+.contact::after{
+    right: 33%;
+}
+.contact-body{
+    display: flex;
+    justify-content: center;
+}
+.contact-section{
+    width: 48%;
+    height: 498px;
+}
+.contact-section:first-child{
+    margin-right: 37px;
+}
+.post,
+.send{
+    background-repeat: no-repeat;
+    filter: drop-shadow(1px 11px 18px rgba(0, 0, 0, 0.25));
+    border-radius: 4%;
+    position: relative;
+}
+.post{
+    background-image: url(../img/foot_left.png);
+    width: 328px;
+    height: 497px;
+}
+.post::before {
+    content: "Send me a letter.";
+    position: absolute;
+    color: #fff;
+    bottom: 86px;
+    left: 57px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.post::after{
+    content: "";
+    position: absolute;
+    background-image: url(../img/home.png);
+    width: 32px;
+    height: 32px;
+    left: 144px;
+    bottom: 44px;
+}
+.send{
+    background-image: url(../img/foot_right.png);
+    width: 328px;
+    height: 497px;
+}
+.send::before{
+    content: "Connect to me online.";
+    position: absolute;
+    width: 216px;
+    color: #fff;
+    bottom: 91px;
+    left: 60px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.send::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/paper_plane.png);
+    width: 32px;
+    height: 29px;
+    left: 148px;
+    bottom: 45px;
+}
+footer{
+    padding: 25px 36px;
+}
+footer>.container{
+    padding: 20px 30px;
+}
+.footer-logo>.logo{
+    color: black;
+    min-width: 140px;
+}
+.footer-nav{
+    min-width: 82px;
+}
+.footer-nav:first-child{
+    text-align: center;
+    min-width: 72px;
+}
+.footer-link{
+    color: black;
+    min-width: 72px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.footer-text{
+    font-size: 14px;
+    line-height: 16px;
+    color: black;
+}
+.footer-text>span{
+    color: #FC4850;
+}
